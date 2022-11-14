@@ -1,1 +1,74 @@
-/* Add your own styles */
+body{
+    margin: 0;
+    background-color: #F0F8FF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: #4A5568;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+input{
+    margin: 8px 0;
+    padding: 10px;
+    width: 550px;
+    border: 1px solid #ccc;
+}
+
+#lookup_country:hover{
+    color: black;
+    padding: 10px;
+}
+
+#lookup_cities:hover{
+    color: black;
+    padding: 10px;
+}
+
+#lookup_country{
+    background-color: #30BFBF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+    margin-left: 20%;
+}
+
+#lookup_cities{
+    background-color: #0F5298;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+}
+
+th{
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border: 1px;
+}
+
+td{
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border: 1px;
+}
